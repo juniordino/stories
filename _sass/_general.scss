@@ -11,6 +11,7 @@ textarea {
 }
 
 html {
+  background-color: _palette(bg);
   @media only screen and (max-width: 600px) {
     border-width: 5px;
     font-size: 100%;
@@ -98,6 +99,8 @@ h6 {
 
 p {
   margin: 0 0 1.66667em;
+  font-size: 1.5em;
+  color: #40594a;
 }
 
 address {
