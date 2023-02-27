@@ -4,6 +4,7 @@ title: "Daisy - the astronaut dino"
 description: "Once upon a time, in a land far, far away, there was a little dinosaur named Daisy. Daisy was a curious and adventurous young dino, always asking questions and seeking new experiences."
 date: 2023-02-21
 feature_image: images/daisy-astronaut.png
+feature_video: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1457069260&color=%23c3155a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true
 tags: [daisy, astronaut]
 ---
 

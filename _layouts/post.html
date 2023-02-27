@@ -16,6 +16,9 @@ layout: default
         <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
       </figure><!-- .post-thumbnail -->
       {% endif %}
+      {% if page.feature_video and page.feature_video != "" %}
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="{{ page.feature_video }}"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/juniordino" title="JuniorDino" target="_blank" style="color: #cccccc; text-decoration: none;">JuniorDino</a> · <a href="https://soundcloud.com/juniordino/daisy-the-astronaut-dino" title="{{page.title}}" target="_blank" style="color: #cccccc; text-decoration: none;">{{page.title}}</a></div>
+      {% endif %}
     </header><!-- .post-header -->
     <div class="post-content">
       {{content}}
